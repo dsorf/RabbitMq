@@ -9,7 +9,7 @@ This library incorporates messaging in your application via [RabbitMQ](http://ww
 The best way to install Kdyby/RabbitMq is using [Composer](http://getcomposer.org/):
 
 ```sh
-$ composer require kdyby/rabbitmq
+$ composer require dsorf/rabbitmq
 ```
 
 Now you have to enable the extension using your neon config

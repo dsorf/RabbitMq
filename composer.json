@@ -1,9 +1,9 @@
 {
-	"name": "kdyby/rabbitmq",
+	"name": "dsorf/rabbitmq",
 	"type": "library",
 	"description": "Integrates php-amqplib with RabbitMq and Nette Framework",
 	"keywords": ["nette", "kdyby", "rabbitmq", "rabbit", "bunny", "amqp", "messaging", "message", "queue"],
-	"homepage": "http://kdyby.org",
+	"homepage": "https://proj.dasc.work/php/rabbitmq",
 	"license": ["MIT"],
 	"authors": [
 		{
@@ -13,14 +13,19 @@
 			"name": "Filip Procházka",
 			"homepage": "http://filip-prochazka.com",
 			"email": "filip@prochazka.su"
+		},
+		{
+			"name": "David Sorf",
+			"homepage": "https://developer.dasc.work",
+			"email": "david@dasc.cz"
 		}
 	],
 	"require": {
-		"php": ">=5.4",
-		"nette/di": "~2.4@dev",
-		"nette/utils": "~2.4@dev",
+		"php": ">=7.1",
+		"nette/di": ">=2.4",
+		"nette/utils": ">=2.4",
 
-		"php-amqplib/php-amqplib": "~2.6.2"
+		"php-amqplib/php-amqplib": ">=2.6"
 	},
 	"require-dev": {
 		"nette/application": "~2.4@dev",
@@ -55,7 +60,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Kdyby\\RabbitMq\\": "src/"
+			"dsorf\\RabbitMq\\": "src/"
 		},
 		"classmap": [
 			"src/Kdyby/RabbitMq/exceptions.php"
